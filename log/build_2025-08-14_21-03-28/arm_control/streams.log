@@ -1,0 +1,57 @@
+[0.015s] Invoking command in '/home/x/CODE/Inverse_Arm/build/arm_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/x/CODE/Inverse_Arm/build/arm_control -- -j8 -l8
+[0.039s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.138s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.166s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.168s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.172s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.211s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.211s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.302s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.338s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.366s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.425s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.477s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.477s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/x/CODE/Inverse_Arm/src/arm_control/include>
+[0.477s] -- Configured cppcheck exclude dirs and/or files: 
+[0.477s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.478s] -- Added test 'lint_cmake' to check CMake code style
+[0.478s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.479s] -- Added test 'uncrustify' to check C / C++ code style
+[0.479s] -- Configured uncrustify additional arguments: 
+[0.479s] -- Added test 'xmllint' to check XML markup files
+[0.480s] -- Configuring done
+[0.495s] -- Generating done
+[0.501s] -- Build files have been written to: /home/x/CODE/Inverse_Arm/build/arm_control
+[0.534s] [35m[1mConsolidate compiler generated dependencies of target armcontrol[0m
+[0.534s] [35m[1mConsolidate compiler generated dependencies of target inverse_resolse_lib[0m
+[0.556s] [ 20%] [32mBuilding CXX object CMakeFiles/armcontrol.dir/src/control_node.cpp.o[0m
+[0.558s] [ 60%] [32mBuilding CXX object CMakeFiles/armcontrol.dir/src/inverse_resolse.cpp.o[0m
+[0.559s] [ 60%] [32mBuilding CXX object CMakeFiles/inverse_resolse_lib.dir/src/inverse_resolse.cpp.o[0m
+[3.039s] [01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/inverse_resolse.cpp:[m[K In member function ‘[01m[Kstd::vector<Eigen::Matrix<double, 6, 1> > motionplaning::resolve::UR_IK::inverse(const Isometry3d&) const[m[K’:
+[3.040s] [01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/inverse_resolse.cpp:36:67:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kd4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.040s]    36 |         const double d1 = dh_[0].d, a2 = dh_[1].a, a3 = dh_[2].a, [01;35m[Kd4[m[K = dh_[3].d,
+[3.040s]       |                                                                   [01;35m[K^~[m[K
+[3.040s] [01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/inverse_resolse.cpp:37:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kd5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.040s]    37 |                      [01;35m[Kd5[m[K = dh_[4].d, d6 = dh_[5].d;
+[3.040s]       |                      [01;35m[K^~[m[K
+[3.058s] [01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/inverse_resolse.cpp:[m[K In member function ‘[01m[Kstd::vector<Eigen::Matrix<double, 6, 1> > motionplaning::resolve::UR_IK::inverse(const Isometry3d&) const[m[K’:
+[3.060s] [01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/inverse_resolse.cpp:36:67:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kd4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.060s]    36 |         const double d1 = dh_[0].d, a2 = dh_[1].a, a3 = dh_[2].a, [01;35m[Kd4[m[K = dh_[3].d,
+[3.060s]       |                                                                   [01;35m[K^~[m[K
+[3.060s] [01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/inverse_resolse.cpp:37:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kd5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.060s]    37 |                      [01;35m[Kd5[m[K = dh_[4].d, d6 = dh_[5].d;
+[3.060s]       |                      [01;35m[K^~[m[K
+[4.194s] [ 80%] [32m[1mLinking CXX shared library libinverse_resolse_lib.so[0m
+[4.470s] [ 80%] Built target inverse_resolse_lib
+[5.561s] [100%] [32m[1mLinking CXX executable armcontrol[0m
+[5.792s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[5.793s] (.text+0x1b): undefined reference to `main'
+[5.793s] /usr/bin/ld: CMakeFiles/armcontrol.dir/src/control_node.cpp.o: in function `motionplaning::resolve::ArmNode::ArmNode(rclcpp::NodeOptions const&)':
+[5.794s] control_node.cpp:(.text+0x361): undefined reference to `motionplaning::resolve::UR_IK::UR_IK(std::array<motionplaning::resolve::DH, 6ul> const&)'
+[5.822s] collect2: error: ld returned 1 exit status
+[5.832s] gmake[2]: *** [CMakeFiles/armcontrol.dir/build.make:202：armcontrol] 错误 1
+[5.837s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/armcontrol.dir/all] 错误 2
+[5.837s] gmake: *** [Makefile:146：all] 错误 2
+[5.841s] Invoked command in '/home/x/CODE/Inverse_Arm/build/arm_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/x/CODE/Inverse_Arm/build/arm_control -- -j8 -l8

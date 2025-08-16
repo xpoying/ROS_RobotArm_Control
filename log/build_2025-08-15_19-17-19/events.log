@@ -1,0 +1,312 @@
+[0.000000] (-) TimerEvent: {}
+[0.000921] (arm_control) JobQueued: {'identifier': 'arm_control', 'dependencies': OrderedDict()}
+[0.000980] (ur_description) JobQueued: {'identifier': 'ur_description', 'dependencies': OrderedDict()}
+[0.001939] (arm_control) JobStarted: {'identifier': 'arm_control'}
+[0.018532] (ur_description) JobStarted: {'identifier': 'ur_description'}
+[0.023216] (arm_control) JobProgress: {'identifier': 'arm_control', 'progress': 'cmake'}
+[0.025301] (arm_control) JobProgress: {'identifier': 'arm_control', 'progress': 'build'}
+[0.025372] (arm_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/x/CODE/Inverse_Arm/build/arm_control', '--', '-j8', '-l8'], 'cwd': '/home/x/CODE/Inverse_Arm/build/arm_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'x'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/x/.mujoco/mujoco-3.3.4/bin'), ('HOME', '/home/x'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3062'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3203'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=afb0d4bfb5ba4fef9e7345e8689f132f'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8244'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'x'), ('JOURNAL_STREAM', '8:28857'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'x'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/x/.local/bin:/home/x/.local/bin:/home/x/miniconda3/bin:/home/x/miniconda3/condabin:/home/x/.local/bin:/opt/ros/humble/bin:/home/x/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/x-virtual-machine:@/tmp/.ICE-unix/3203,unix/x-virtual-machine:/tmp/.ICE-unix/3203'), ('INVOCATION_ID', 'c5572fb36c5246c1ae0d5f70c7709dbc'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2FLWA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-428bb6bdc2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/x/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/x/CODE/Inverse_Arm/build/arm_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/x/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=afb0d4bfb5ba4fef9e7345e8689f132f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/x/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.030580] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'cmake'}
+[0.034836] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'build'}
+[0.035585] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/x/CODE/Inverse_Arm/build/ur_description', '--', '-j8', '-l8'], 'cwd': '/home/x/CODE/Inverse_Arm/build/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'x'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/x/.mujoco/mujoco-3.3.4/bin'), ('HOME', '/home/x'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3062'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3203'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=afb0d4bfb5ba4fef9e7345e8689f132f'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8244'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'x'), ('JOURNAL_STREAM', '8:28857'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'x'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/x/.local/bin:/home/x/.local/bin:/home/x/miniconda3/bin:/home/x/miniconda3/condabin:/home/x/.local/bin:/opt/ros/humble/bin:/home/x/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/x-virtual-machine:@/tmp/.ICE-unix/3203,unix/x-virtual-machine:/tmp/.ICE-unix/3203'), ('INVOCATION_ID', 'c5572fb36c5246c1ae0d5f70c7709dbc'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2FLWA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-428bb6bdc2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/x/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/x/CODE/Inverse_Arm/build/ur_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/x/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=afb0d4bfb5ba4fef9e7345e8689f132f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/x/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100166] (-) TimerEvent: {}
+[0.138479] (ur_description) CommandEnded: {'returncode': 0}
+[0.140405] (ur_description) JobProgress: {'identifier': 'ur_description', 'progress': 'install'}
+[0.151316] (ur_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/x/CODE/Inverse_Arm/build/ur_description'], 'cwd': '/home/x/CODE/Inverse_Arm/build/ur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'x'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/x/.mujoco/mujoco-3.3.4/bin'), ('HOME', '/home/x'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '3062'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3203'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=afb0d4bfb5ba4fef9e7345e8689f132f'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8244'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'x'), ('JOURNAL_STREAM', '8:28857'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'x'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/x/.local/bin:/home/x/.local/bin:/home/x/miniconda3/bin:/home/x/miniconda3/condabin:/home/x/.local/bin:/opt/ros/humble/bin:/home/x/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/x-virtual-machine:@/tmp/.ICE-unix/3203,unix/x-virtual-machine:/tmp/.ICE-unix/3203'), ('INVOCATION_ID', 'c5572fb36c5246c1ae0d5f70c7709dbc'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2FLWA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-428bb6bdc2.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/x/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/x/CODE/Inverse_Arm/build/ur_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/x/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=afb0d4bfb5ba4fef9e7345e8689f132f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/x/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.161642] (ur_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.164612] (ur_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.175977] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/initial_positions.yaml\n'}
+[0.176440] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml\n'}
+[0.177094] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml\n'}
+[0.178192] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml\n'}
+[0.178902] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml\n'}
+[0.179163] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml\n'}
+[0.179514] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml\n'}
+[0.180664] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml\n'}
+[0.181635] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml\n'}
+[0.182834] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur12e/default_kinematics.yaml\n'}
+[0.183484] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur12e/joint_limits.yaml\n'}
+[0.184153] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur12e/physical_parameters.yaml\n'}
+[0.184778] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur12e/visual_parameters.yaml\n'}
+[0.185431] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur15/default_kinematics.yaml\n'}
+[0.185988] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur15/joint_limits.yaml\n'}
+[0.186539] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur15/physical_parameters.yaml\n'}
+[0.187066] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur15/visual_parameters.yaml\n'}
+[0.187865] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml\n'}
+[0.188367] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml\n'}
+[0.189110] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml\n'}
+[0.189415] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml\n'}
+[0.190230] (arm_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target armcontrol\x1b[0m\n'}
+[0.190361] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml\n'}
+[0.190931] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml\n'}
+[0.191450] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml\n'}
+[0.192114] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml\n'}
+[0.192631] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml\n'}
+[0.193093] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml\n'}
+[0.193660] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml\n'}
+[0.194255] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml\n'}
+[0.195785] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml\n'}
+[0.195966] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml\n'}
+[0.197009] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml\n'}
+[0.197501] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml\n'}
+[0.198357] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml\n'}
+[0.199001] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml\n'}
+[0.199738] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml\n'}
+[0.200312] (-) TimerEvent: {}
+[0.200496] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml\n'}
+[0.201099] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml\n'}
+[0.201686] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml\n'}
+[0.202476] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml\n'}
+[0.203141] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml\n'}
+[0.203737] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml\n'}
+[0.204425] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml\n'}
+[0.205042] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml\n'}
+[0.205696] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml\n'}
+[0.206166] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur7e/default_kinematics.yaml\n'}
+[0.207149] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur7e/joint_limits.yaml\n'}
+[0.207627] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur7e/physical_parameters.yaml\n'}
+[0.208084] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur7e/visual_parameters.yaml\n'}
+[0.209445] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/launch/view_ur.launch.py\n'}
+[0.215766] (arm_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/armcontrol.dir/src/main.cpp.o\x1b[0m\n'}
+[0.217109] (arm_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/armcontrol.dir/src/control_node.cpp.o\x1b[0m\n'}
+[0.217836] (arm_control) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/armcontrol.dir/src/inverse_resolse.cpp.o\x1b[0m\n'}
+[0.250684] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl\n'}
+[0.251285] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl\n'}
+[0.251867] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl\n'}
+[0.255476] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl\n'}
+[0.255858] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl\n'}
+[0.262372] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl\n'}
+[0.262765] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl\n'}
+[0.263427] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae\n'}
+[0.264747] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae\n'}
+[0.265798] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae\n'}
+[0.266442] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae\n'}
+[0.266852] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae\n'}
+[0.267822] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae\n'}
+[0.268383] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae\n'}
+[0.270227] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl\n'}
+[0.270795] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl\n'}
+[0.271996] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl\n'}
+[0.272831] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl\n'}
+[0.273097] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl\n'}
+[0.273890] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl\n'}
+[0.274416] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl\n'}
+[0.275107] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae\n'}
+[0.275745] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae\n'}
+[0.276317] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae\n'}
+[0.276941] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae\n'}
+[0.277541] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae\n'}
+[0.278084] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae\n'}
+[0.278787] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae\n'}
+[0.279326] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/LICENSE.txt\n'}
+[0.279858] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/collision/base.stl\n'}
+[0.280420] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/collision/forearm.stl\n'}
+[0.281354] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/collision/shoulder.stl\n'}
+[0.281901] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/collision/upperarm.stl\n'}
+[0.282633] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/collision/wrist1.stl\n'}
+[0.282796] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/collision/wrist2.stl\n'}
+[0.283118] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/collision/wrist3.stl\n'}
+[0.283965] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/UR15_DIFF_8bit_2K.jpg\n'}
+[0.284648] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/base.dae\n'}
+[0.285228] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/forearm.dae\n'}
+[0.285708] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/shoulder.dae\n'}
+[0.286830] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/upperarm.dae\n'}
+[0.287529] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/wrist1.dae\n'}
+[0.288768] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/wrist2.dae\n'}
+[0.289498] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/wrist3.dae\n'}
+[0.290396] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl\n'}
+[0.290660] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl\n'}
+[0.291384] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae\n'}
+[0.291933] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae\n'}
+[0.292364] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt\n'}
+[0.293006] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl\n'}
+[0.293398] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl\n'}
+[0.294784] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl\n'}
+[0.294852] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl\n'}
+[0.294994] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl\n'}
+[0.295500] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl\n'}
+[0.296015] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl\n'}
+[0.296684] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png\n'}
+[0.297498] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae\n'}
+[0.298466] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae\n'}
+[0.299349] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae\n'}
+[0.299602] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae\n'}
+[0.300237] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae\n'}
+[0.300625] (-) TimerEvent: {}
+[0.301082] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae\n'}
+[0.302347] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae\n'}
+[0.302689] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl\n'}
+[0.304041] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl\n'}
+[0.304556] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl\n'}
+[0.305216] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl\n'}
+[0.305464] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl\n'}
+[0.306256] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl\n'}
+[0.306742] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl\n'}
+[0.307235] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae\n'}
+[0.307752] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae\n'}
+[0.308870] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae\n'}
+[0.309733] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae\n'}
+[0.310459] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae\n'}
+[0.310656] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae\n'}
+[0.311109] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae\n'}
+[0.311888] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt\n'}
+[0.312527] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl\n'}
+[0.313036] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl\n'}
+[0.313448] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png\n'}
+[0.313688] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae\n'}
+[0.314133] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae\n'}
+[0.314510] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl\n'}
+[0.315042] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl\n'}
+[0.315573] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl\n'}
+[0.316283] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl\n'}
+[0.317127] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl\n'}
+[0.318220] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl\n'}
+[0.318843] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl\n'}
+[0.319651] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae\n'}
+[0.319855] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae\n'}
+[0.320386] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae\n'}
+[0.321932] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae\n'}
+[0.322578] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae\n'}
+[0.323386] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae\n'}
+[0.323954] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae\n'}
+[0.324507] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl\n'}
+[0.325035] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl\n'}
+[0.325354] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl\n'}
+[0.334162] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl\n'}
+[0.334786] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl\n'}
+[0.335059] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl\n'}
+[0.337507] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl\n'}
+[0.337616] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae\n'}
+[0.339480] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae\n'}
+[0.340881] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae\n'}
+[0.341905] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae\n'}
+[0.342301] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae\n'}
+[0.353631] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae\n'}
+[0.355002] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae\n'}
+[0.355727] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl\n'}
+[0.356276] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl\n'}
+[0.357030] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl\n'}
+[0.357566] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl\n'}
+[0.357820] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl\n'}
+[0.358342] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl\n'}
+[0.358953] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl\n'}
+[0.359416] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae\n'}
+[0.359981] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae\n'}
+[0.360403] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae\n'}
+[0.361049] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae\n'}
+[0.361598] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae\n'}
+[0.362214] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae\n'}
+[0.362761] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae\n'}
+[0.364174] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/rviz/view_robot.rviz\n'}
+[0.365537] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro\n'}
+[0.366250] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/inc/ur_joint_control.xacro\n'}
+[0.366714] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/inc/ur_sensors.xacro\n'}
+[0.367380] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro\n'}
+[0.367892] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/ros2_control_mock_hardware.xacro\n'}
+[0.368722] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/ur.urdf.xacro\n'}
+[0.369138] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/ur_macro.xacro\n'}
+[0.369706] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/ur_mocked.urdf.xacro\n'}
+[0.371461] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py\n'}
+[0.371747] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/test/test_view_ur_launch.py\n'}
+[0.372251] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description\n'}
+[0.372944] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description\n'}
+[0.373707] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/environment/ament_prefix_path.sh\n'}
+[0.373963] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv\n'}
+[0.374874] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/environment/path.sh\n'}
+[0.375202] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/environment/path.dsv\n'}
+[0.375687] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/local_setup.bash\n'}
+[0.376326] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/local_setup.sh\n'}
+[0.376762] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/local_setup.zsh\n'}
+[0.377875] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/local_setup.dsv\n'}
+[0.377946] (ur_description) StdoutLine: {'line': b'-- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/package.dsv\n'}
+[0.393251] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ament_index/resource_index/packages/ur_description\n'}
+[0.393661] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake\n'}
+[0.394241] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake\n'}
+[0.394610] (ur_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/package.xml\n'}
+[0.397128] (ur_description) CommandEnded: {'returncode': 0}
+[0.400897] (-) TimerEvent: {}
+[0.478396] (ur_description) JobEnded: {'identifier': 'ur_description', 'rc': 0}
+[0.501351] (-) TimerEvent: {}
+[0.601941] (-) TimerEvent: {}
+[0.702900] (-) TimerEvent: {}
+[0.803602] (-) TimerEvent: {}
+[0.904600] (-) TimerEvent: {}
+[1.005453] (-) TimerEvent: {}
+[1.106689] (-) TimerEvent: {}
+[1.207466] (-) TimerEvent: {}
+[1.308465] (-) TimerEvent: {}
+[1.409742] (-) TimerEvent: {}
+[1.511168] (-) TimerEvent: {}
+[1.612355] (-) TimerEvent: {}
+[1.714172] (-) TimerEvent: {}
+[1.814861] (-) TimerEvent: {}
+[1.915503] (-) TimerEvent: {}
+[2.016922] (-) TimerEvent: {}
+[2.118233] (-) TimerEvent: {}
+[2.219759] (-) TimerEvent: {}
+[2.320533] (-) TimerEvent: {}
+[2.421720] (-) TimerEvent: {}
+[2.522760] (-) TimerEvent: {}
+[2.623590] (-) TimerEvent: {}
+[2.724432] (-) TimerEvent: {}
+[2.825522] (-) TimerEvent: {}
+[2.927338] (-) TimerEvent: {}
+[3.028055] (-) TimerEvent: {}
+[3.128925] (-) TimerEvent: {}
+[3.230517] (-) TimerEvent: {}
+[3.273604] (arm_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/x/CODE/Inverse_Arm/src/arm_control/src/control_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.273819] (arm_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/x/CODE/Inverse_Arm/src/arm_control/include/arm_control/Control_Node.h:18:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kstruct motionplaning::resolve::DH\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.273862] (arm_control) StderrLine: {'line': b'   18 | struct \x1b[01;31m\x1b[KDH\x1b[m\x1b[K\n'}
+[3.273893] (arm_control) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.273921] (arm_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/x/CODE/Inverse_Arm/src/arm_control/include/arm_control/Control_Node.h:12\x1b[m\x1b[K,\n'}
+[3.273949] (arm_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/x/CODE/Inverse_Arm/src/arm_control/src/control_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.273976] (arm_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/x/CODE/Inverse_Arm/src/arm_control/include/arm_control/Inverse_Resolse.h:11:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious definition of \xe2\x80\x98\x1b[01m\x1b[Kstruct motionplaning::resolve::DH\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.274008] (arm_control) StderrLine: {'line': b'   11 |     struct \x1b[01;36m\x1b[KDH\x1b[m\x1b[K\n'}
+[3.274035] (arm_control) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.288372] (arm_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/x/CODE/Inverse_Arm/src/arm_control/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[3.288556] (arm_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/x/CODE/Inverse_Arm/src/arm_control/include/arm_control/Control_Node.h:18:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kstruct motionplaning::resolve::DH\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.288596] (arm_control) StderrLine: {'line': b'   18 | struct \x1b[01;31m\x1b[KDH\x1b[m\x1b[K\n'}
+[3.288628] (arm_control) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.288660] (arm_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/x/CODE/Inverse_Arm/src/arm_control/include/arm_control/Control_Node.h:12\x1b[m\x1b[K,\n'}
+[3.288691] (arm_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/x/CODE/Inverse_Arm/src/arm_control/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[3.288719] (arm_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/x/CODE/Inverse_Arm/src/arm_control/include/arm_control/Inverse_Resolse.h:11:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious definition of \xe2\x80\x98\x1b[01m\x1b[Kstruct motionplaning::resolve::DH\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.288747] (arm_control) StderrLine: {'line': b'   11 |     struct \x1b[01;36m\x1b[KDH\x1b[m\x1b[K\n'}
+[3.288773] (arm_control) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.330751] (-) TimerEvent: {}
+[3.431315] (-) TimerEvent: {}
+[3.532684] (-) TimerEvent: {}
+[3.633304] (-) TimerEvent: {}
+[3.715424] (arm_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/armcontrol.dir/build.make:76\xef\xbc\x9aCMakeFiles/armcontrol.dir/src/main.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.715622] (arm_control) StderrLine: {'line': b'gmake[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[3.733898] (-) TimerEvent: {}
+[3.834727] (-) TimerEvent: {}
+[3.935415] (-) TimerEvent: {}
+[4.036076] (-) TimerEvent: {}
+[4.136659] (-) TimerEvent: {}
+[4.237217] (-) TimerEvent: {}
+[4.338024] (-) TimerEvent: {}
+[4.439001] (-) TimerEvent: {}
+[4.539863] (-) TimerEvent: {}
+[4.640934] (-) TimerEvent: {}
+[4.741714] (-) TimerEvent: {}
+[4.842580] (-) TimerEvent: {}
+[4.943142] (-) TimerEvent: {}
+[5.044045] (-) TimerEvent: {}
+[5.144921] (-) TimerEvent: {}
+[5.245468] (-) TimerEvent: {}
+[5.346255] (-) TimerEvent: {}
+[5.447134] (-) TimerEvent: {}
+[5.548023] (-) TimerEvent: {}
+[5.648585] (-) TimerEvent: {}
+[5.748983] (-) TimerEvent: {}
+[5.849953] (-) TimerEvent: {}
+[5.951051] (-) TimerEvent: {}
+[6.051585] (-) TimerEvent: {}
+[6.151961] (-) TimerEvent: {}
+[6.252553] (-) TimerEvent: {}
+[6.266474] (arm_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/armcontrol.dir/build.make:90\xef\xbc\x9aCMakeFiles/armcontrol.dir/src/control_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[6.267871] (arm_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/armcontrol.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[6.268073] (arm_control) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[6.270476] (arm_control) CommandEnded: {'returncode': 2}
+[6.280482] (arm_control) JobEnded: {'identifier': 'arm_control', 'rc': 2}
+[6.292523] (-) EventReactorShutdown: {}

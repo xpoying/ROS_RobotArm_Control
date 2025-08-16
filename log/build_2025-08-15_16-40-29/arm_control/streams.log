@@ -1,0 +1,29 @@
+[0.017s] Invoking command in '/home/x/CODE/Inverse_Arm/build/arm_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/x/CODE/Inverse_Arm/build/arm_control -- -j8 -l8
+[0.083s] [ 25%] [32mBuilding CXX object CMakeFiles/armcontrol.dir/src/control_node.cpp.o[0m
+[4.580s] [ 50%] [32m[1mLinking CXX executable armcontrol[0m
+[4.811s] [100%] Built target armcontrol
+[4.824s] Invoked command in '/home/x/CODE/Inverse_Arm/build/arm_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/x/CODE/Inverse_Arm/build/arm_control -- -j8 -l8
+[4.828s] Invoking command in '/home/x/CODE/Inverse_Arm/build/arm_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/x/CODE/Inverse_Arm/build/arm_control
+[4.835s] -- Install configuration: ""
+[4.835s] -- Installing: /home/x/CODE/Inverse_Arm/install/arm_control/lib/arm_control/armcontrol
+[4.838s] -- Set runtime path of "/home/x/CODE/Inverse_Arm/install/arm_control/lib/arm_control/armcontrol" to ""
+[4.838s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/include
+[4.838s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/include/arm_control
+[4.838s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/include/arm_control/Inverse_Resolse.h
+[4.839s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/include/arm_control/Control_Node.h
+[4.839s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/share/ament_index/resource_index/package_run_dependencies/arm_control
+[4.839s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/share/ament_index/resource_index/parent_prefix_path/arm_control
+[4.839s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/share/arm_control/environment/ament_prefix_path.sh
+[4.839s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/share/arm_control/environment/ament_prefix_path.dsv
+[4.839s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/share/arm_control/environment/path.sh
+[4.839s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/share/arm_control/environment/path.dsv
+[4.839s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/share/arm_control/local_setup.bash
+[4.839s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/share/arm_control/local_setup.sh
+[4.839s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/share/arm_control/local_setup.zsh
+[4.839s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/share/arm_control/local_setup.dsv
+[4.839s] -- Installing: /home/x/CODE/Inverse_Arm/install/arm_control/share/arm_control/package.dsv
+[4.839s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/share/ament_index/resource_index/packages/arm_control
+[4.839s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/share/arm_control/cmake/arm_controlConfig.cmake
+[4.839s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/share/arm_control/cmake/arm_controlConfig-version.cmake
+[4.840s] -- Up-to-date: /home/x/CODE/Inverse_Arm/install/arm_control/share/arm_control/package.xml
+[4.842s] Invoked command in '/home/x/CODE/Inverse_Arm/build/arm_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/x/CODE/Inverse_Arm/build/arm_control

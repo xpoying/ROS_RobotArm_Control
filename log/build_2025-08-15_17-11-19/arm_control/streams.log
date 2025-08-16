@@ -1,0 +1,46 @@
+[0.025s] Invoking command in '/home/x/CODE/Inverse_Arm/build/arm_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/x/CODE/Inverse_Arm/build/arm_control -- -j8 -l8
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target armcontrol[0m
+[0.121s] [ 25%] [32mBuilding CXX object CMakeFiles/armcontrol.dir/src/main.cpp.o[0m
+[0.121s] [ 75%] [32mBuilding CXX object CMakeFiles/armcontrol.dir/src/control_node.cpp.o[0m
+[0.121s] [ 75%] [32mBuilding CXX object CMakeFiles/armcontrol.dir/src/inverse_resolse.cpp.o[0m
+[0.448s] [01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/control_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktf2/LinearMath/Matrix3x3.h: 没有那个文件或目录
+[0.449s]     2 | #include [01;31m[K<tf2/LinearMath/Matrix3x3.h>[m[K
+[0.449s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.449s] compilation terminated.
+[0.456s] gmake[2]: *** [CMakeFiles/armcontrol.dir/build.make:90：CMakeFiles/armcontrol.dir/src/control_node.cpp.o] 错误 1
+[0.456s] gmake[2]: *** 正在等待未完成的任务....
+[3.050s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[3.050s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[3.050s]                  from [01m[K/usr/include/c++/11/string:41[m[K,
+[3.050s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[3.050s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[3.050s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[3.050s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[3.050s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[3.050s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[3.050s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[3.050s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[3.050s]                  from [01m[K/home/x/CODE/Inverse_Arm/src/arm_control/include/arm_control/Inverse_Resolse.h:5[m[K,
+[3.050s]                  from [01m[K/home/x/CODE/Inverse_Arm/src/arm_control/include/arm_control/Control_Node.h:4[m[K,
+[3.050s]                  from [01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/main.cpp:1[m[K:
+[3.051s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = motionplaning::resolve::ArmNode; _Args = {}; _Tp = motionplaning::resolve::ArmNode][m[K’:
+[3.051s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = motionplaning::resolve::ArmNode; _Args = {}; _Tp = motionplaning::resolve::ArmNode; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<motionplaning::resolve::ArmNode>][m[K’
+[3.051s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = motionplaning::resolve::ArmNode; _Alloc = std::allocator<motionplaning::resolve::ArmNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.051s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = motionplaning::resolve::ArmNode; _Alloc = std::allocator<motionplaning::resolve::ArmNode>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.051s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<motionplaning::resolve::ArmNode>; _Args = {}; _Tp = motionplaning::resolve::ArmNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.051s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<motionplaning::resolve::ArmNode>; _Args = {}; _Tp = motionplaning::resolve::ArmNode][m[K’
+[3.051s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = motionplaning::resolve::ArmNode; _Alloc = std::allocator<motionplaning::resolve::ArmNode>; _Args = {}][m[K’
+[3.051s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = motionplaning::resolve::ArmNode; _Args = {}][m[K’
+[3.051s] [01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/main.cpp:6:67:[m[K   required from here
+[3.051s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmotionplaning::resolve::ArmNode::ArmNode()[m[K’
+[3.051s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[3.051s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.051s] In file included from [01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/main.cpp:1[m[K:
+[3.051s] [01m[K/home/x/CODE/Inverse_Arm/src/arm_control/include/arm_control/Control_Node.h:32:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmotionplaning::resolve::ArmNode::ArmNode(const rclcpp::NodeOptions&)[m[K’
+[3.051s]    32 |     explicit [01;36m[KArmNode[m[K(const rclcpp::NodeOptions &options);
+[3.051s]       |              [01;36m[K^~~~~~~[m[K
+[3.051s] [01m[K/home/x/CODE/Inverse_Arm/src/arm_control/include/arm_control/Control_Node.h:32:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[3.128s] gmake[2]: *** [CMakeFiles/armcontrol.dir/build.make:76：CMakeFiles/armcontrol.dir/src/main.cpp.o] 错误 1
+[3.128s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/armcontrol.dir/all] 错误 2
+[3.129s] gmake: *** [Makefile:146：all] 错误 2
+[3.131s] Invoked command in '/home/x/CODE/Inverse_Arm/build/arm_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/x/CODE/Inverse_Arm/build/arm_control -- -j8 -l8

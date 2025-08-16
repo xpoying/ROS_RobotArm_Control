@@ -1,0 +1,4 @@
+source;share/inverse_arm/local_setup.bash
+source;share/inverse_arm/local_setup.dsv
+source;share/inverse_arm/local_setup.sh
+source;share/inverse_arm/local_setup.zsh

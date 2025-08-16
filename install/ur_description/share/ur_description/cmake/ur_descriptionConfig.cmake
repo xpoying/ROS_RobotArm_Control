@@ -1,0 +1,1 @@
+/home/x/CODE/Inverse_Arm/build/ur_description/ament_cmake_core/ur_descriptionConfig.cmake

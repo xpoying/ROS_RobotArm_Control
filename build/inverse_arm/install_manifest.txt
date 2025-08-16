@@ -1,0 +1,15 @@
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/ament_index/resource_index/package_run_dependencies/inverse_arm
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/ament_index/resource_index/parent_prefix_path/inverse_arm
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/inverse_arm/environment/ament_prefix_path.sh
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/inverse_arm/environment/ament_prefix_path.dsv
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/inverse_arm/environment/path.sh
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/inverse_arm/environment/path.dsv
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/inverse_arm/local_setup.bash
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/inverse_arm/local_setup.sh
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/inverse_arm/local_setup.zsh
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/inverse_arm/local_setup.dsv
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/inverse_arm/package.dsv
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/ament_index/resource_index/packages/inverse_arm
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/inverse_arm/cmake/inverse_armConfig.cmake
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/inverse_arm/cmake/inverse_armConfig-version.cmake
+/home/x/CODE/Inverse_Arm/install/inverse_arm/share/inverse_arm/package.xml

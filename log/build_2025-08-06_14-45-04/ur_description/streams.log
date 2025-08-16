@@ -1,0 +1,229 @@
+[0.012s] Invoking command in '/home/x/CODE/Inverse_Arm/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/x/CODE/Inverse_Arm/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/x/CODE/Inverse_Arm/install/ur_description
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.134s] -- The CXX compiler identification is GNU 11.4.0
+[0.141s] -- Detecting C compiler ABI info
+[0.214s] -- Detecting C compiler ABI info - done
+[0.219s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.219s] -- Detecting C compile features
+[0.220s] -- Detecting C compile features - done
+[0.222s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.313s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.313s] -- Detecting CXX compile features
+[0.314s] -- Detecting CXX compile features - done
+[0.317s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.454s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.508s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.535s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.181s] -- Configuring done
+[1.183s] -- Generating done
+[1.185s] -- Build files have been written to: /home/x/CODE/Inverse_Arm/build/ur_description
+[1.191s] Invoked command in '/home/x/CODE/Inverse_Arm/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/x/CODE/Inverse_Arm/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/x/CODE/Inverse_Arm/install/ur_description
+[1.191s] Invoking command in '/home/x/CODE/Inverse_Arm/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/x/CODE/Inverse_Arm/build/ur_description -- -j8 -l8
+[1.231s] Invoked command in '/home/x/CODE/Inverse_Arm/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/x/CODE/Inverse_Arm/build/ur_description -- -j8 -l8
+[1.245s] Invoking command in '/home/x/CODE/Inverse_Arm/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/x/CODE/Inverse_Arm/build/ur_description
+[1.253s] -- Install configuration: ""
+[1.253s] -- Execute custom install script
+[1.255s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/initial_positions.yaml
+[1.265s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[1.275s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[1.284s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[1.293s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[1.302s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[1.311s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[1.320s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[1.329s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[1.340s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur12e/default_kinematics.yaml
+[1.349s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur12e/joint_limits.yaml
+[1.358s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur12e/physical_parameters.yaml
+[1.367s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur12e/visual_parameters.yaml
+[1.376s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur15/default_kinematics.yaml
+[1.385s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur15/joint_limits.yaml
+[1.394s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur15/physical_parameters.yaml
+[1.404s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur15/visual_parameters.yaml
+[1.413s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[1.422s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[1.433s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[1.443s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[1.453s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[1.463s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[1.472s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[1.480s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[1.489s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[1.498s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[1.508s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[1.519s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[1.529s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[1.538s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[1.547s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[1.556s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[1.566s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[1.575s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[1.583s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[1.592s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[1.599s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[1.608s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[1.616s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[1.625s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[1.636s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[1.650s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[1.660s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[1.671s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[1.680s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur7e/default_kinematics.yaml
+[1.689s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur7e/joint_limits.yaml
+[1.698s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur7e/physical_parameters.yaml
+[1.708s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/config/ur7e/visual_parameters.yaml
+[1.717s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[1.728s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[1.739s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[1.750s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[1.759s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[1.768s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[1.777s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[1.786s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[1.794s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[1.804s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[1.812s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[1.820s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[1.829s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[1.838s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[1.848s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[1.858s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[1.867s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[1.876s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[1.885s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[1.893s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[1.902s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[1.910s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[1.924s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[1.934s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[1.944s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[1.953s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[1.962s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[1.971s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[1.980s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[1.988s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/LICENSE.txt
+[1.999s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/collision/base.stl
+[2.007s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/collision/forearm.stl
+[2.015s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/collision/shoulder.stl
+[2.024s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/collision/upperarm.stl
+[2.036s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/collision/wrist1.stl
+[2.045s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/collision/wrist2.stl
+[2.055s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/collision/wrist3.stl
+[2.066s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/UR15_DIFF_8bit_2K.jpg
+[2.075s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/base.dae
+[2.083s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/forearm.dae
+[2.091s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/shoulder.dae
+[2.101s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/upperarm.dae
+[2.109s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/wrist1.dae
+[2.118s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/wrist2.dae
+[2.129s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur15/visual/wrist3.dae
+[2.141s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[2.151s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[2.164s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[2.174s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[2.182s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[2.190s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[2.198s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[2.206s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[2.214s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[2.222s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[2.232s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[2.243s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[2.253s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[2.264s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[2.275s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[2.284s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[2.294s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[2.304s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[2.314s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[2.323s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[2.333s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[2.344s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[2.353s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[2.362s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[2.371s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[2.379s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[2.388s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[2.396s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[2.405s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[2.413s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[2.421s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[2.430s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[2.439s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[2.450s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[2.460s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[2.470s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[2.479s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[2.489s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[2.498s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[2.507s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[2.517s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[2.526s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[2.536s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[2.545s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[2.554s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[2.563s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[2.572s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[2.581s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[2.590s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[2.599s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[2.608s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[2.616s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[2.630s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[2.640s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[2.650s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[2.659s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[2.668s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[2.676s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[2.684s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[2.692s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[2.700s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[2.708s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[2.716s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[2.724s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[2.734s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[2.745s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[2.755s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[2.764s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[2.774s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[2.782s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[2.790s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[2.797s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[2.805s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[2.813s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[2.821s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[2.830s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[2.843s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[2.852s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[2.860s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[2.875s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[2.883s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[2.892s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[2.900s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[2.911s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[2.920s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/inc/ur_joint_control.xacro
+[2.928s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/inc/ur_sensors.xacro
+[2.939s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[2.949s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/ros2_control_mock_hardware.xacro
+[2.958s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[2.968s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[2.977s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/urdf/ur_mocked.urdf.xacro
+[2.985s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[2.994s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[3.003s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[3.012s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[3.021s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[3.032s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[3.042s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/environment/path.sh
+[3.051s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/environment/path.dsv
+[3.061s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/local_setup.bash
+[3.070s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/local_setup.sh
+[3.078s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/local_setup.zsh
+[3.086s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/local_setup.dsv
+[3.094s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/package.dsv
+[3.102s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[3.112s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[3.121s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[3.131s] -- Symlinking: /home/x/CODE/Inverse_Arm/install/ur_description/share/ur_description/package.xml
+[3.145s] Invoked command in '/home/x/CODE/Inverse_Arm/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/x/CODE/Inverse_Arm/build/ur_description

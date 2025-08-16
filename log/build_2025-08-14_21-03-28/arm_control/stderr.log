@@ -1,0 +1,22 @@
+[01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/inverse_resolse.cpp:[m[K In member function ‘[01m[Kstd::vector<Eigen::Matrix<double, 6, 1> > motionplaning::resolve::UR_IK::inverse(const Isometry3d&) const[m[K’:
+[01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/inverse_resolse.cpp:36:67:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kd4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   36 |         const double d1 = dh_[0].d, a2 = dh_[1].a, a3 = dh_[2].a, [01;35m[Kd4[m[K = dh_[3].d,
+      |                                                                   [01;35m[K^~[m[K
+[01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/inverse_resolse.cpp:37:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kd5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   37 |                      [01;35m[Kd5[m[K = dh_[4].d, d6 = dh_[5].d;
+      |                      [01;35m[K^~[m[K
+[01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/inverse_resolse.cpp:[m[K In member function ‘[01m[Kstd::vector<Eigen::Matrix<double, 6, 1> > motionplaning::resolve::UR_IK::inverse(const Isometry3d&) const[m[K’:
+[01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/inverse_resolse.cpp:36:67:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kd4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   36 |         const double d1 = dh_[0].d, a2 = dh_[1].a, a3 = dh_[2].a, [01;35m[Kd4[m[K = dh_[3].d,
+      |                                                                   [01;35m[K^~[m[K
+[01m[K/home/x/CODE/Inverse_Arm/src/arm_control/src/inverse_resolse.cpp:37:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kd5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   37 |                      [01;35m[Kd5[m[K = dh_[4].d, d6 = dh_[5].d;
+      |                      [01;35m[K^~[m[K
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+/usr/bin/ld: CMakeFiles/armcontrol.dir/src/control_node.cpp.o: in function `motionplaning::resolve::ArmNode::ArmNode(rclcpp::NodeOptions const&)':
+control_node.cpp:(.text+0x361): undefined reference to `motionplaning::resolve::UR_IK::UR_IK(std::array<motionplaning::resolve::DH, 6ul> const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/armcontrol.dir/build.make:202：armcontrol] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/armcontrol.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

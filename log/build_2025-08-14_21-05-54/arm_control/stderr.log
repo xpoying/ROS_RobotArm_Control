@@ -1,8 +1,0 @@
-/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
-(.text+0x1b): undefined reference to `main'
-/usr/bin/ld: CMakeFiles/armcontrol.dir/src/control_node.cpp.o: in function `motionplaning::resolve::ArmNode::ArmNode(rclcpp::NodeOptions const&)':
-control_node.cpp:(.text+0x361): undefined reference to `motionplaning::resolve::UR_IK::UR_IK(std::array<motionplaning::resolve::DH, 6ul> const&)'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/armcontrol.dir/build.make:202：armcontrol] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/armcontrol.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

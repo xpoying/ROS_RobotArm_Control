@@ -1,9 +1,0 @@
-/home/x/CODE/Inverse_Arm/build/inverse_arm/CMakeFiles/uninstall.dir
-/home/x/CODE/Inverse_Arm/build/inverse_arm/CMakeFiles/inverse_arm_uninstall.dir
-/home/x/CODE/Inverse_Arm/build/inverse_arm/CMakeFiles/test.dir
-/home/x/CODE/Inverse_Arm/build/inverse_arm/CMakeFiles/edit_cache.dir
-/home/x/CODE/Inverse_Arm/build/inverse_arm/CMakeFiles/rebuild_cache.dir
-/home/x/CODE/Inverse_Arm/build/inverse_arm/CMakeFiles/list_install_components.dir
-/home/x/CODE/Inverse_Arm/build/inverse_arm/CMakeFiles/install.dir
-/home/x/CODE/Inverse_Arm/build/inverse_arm/CMakeFiles/install/local.dir
-/home/x/CODE/Inverse_Arm/build/inverse_arm/CMakeFiles/install/strip.dir

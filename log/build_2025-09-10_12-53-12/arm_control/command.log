@@ -1,0 +1,4 @@
+Invoking command in '/home/x/CODE/ROS_RobotArm_Control/build/arm_control': /usr/bin/cmake --build /home/x/CODE/ROS_RobotArm_Control/build/arm_control -- -j8 -l8
+Invoked command in '/home/x/CODE/ROS_RobotArm_Control/build/arm_control' returned '0': /usr/bin/cmake --build /home/x/CODE/ROS_RobotArm_Control/build/arm_control -- -j8 -l8
+Invoking command in '/home/x/CODE/ROS_RobotArm_Control/build/arm_control': /usr/bin/cmake --install /home/x/CODE/ROS_RobotArm_Control/build/arm_control
+Invoked command in '/home/x/CODE/ROS_RobotArm_Control/build/arm_control' returned '0': /usr/bin/cmake --install /home/x/CODE/ROS_RobotArm_Control/build/arm_control

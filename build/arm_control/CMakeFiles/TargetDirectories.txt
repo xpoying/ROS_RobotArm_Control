@@ -1,0 +1,10 @@
+/home/x/CODE/ROS_RobotArm_Control/build/arm_control/CMakeFiles/uninstall.dir
+/home/x/CODE/ROS_RobotArm_Control/build/arm_control/CMakeFiles/arm_control_uninstall.dir
+/home/x/CODE/ROS_RobotArm_Control/build/arm_control/CMakeFiles/armcontrol.dir
+/home/x/CODE/ROS_RobotArm_Control/build/arm_control/CMakeFiles/test.dir
+/home/x/CODE/ROS_RobotArm_Control/build/arm_control/CMakeFiles/edit_cache.dir
+/home/x/CODE/ROS_RobotArm_Control/build/arm_control/CMakeFiles/rebuild_cache.dir
+/home/x/CODE/ROS_RobotArm_Control/build/arm_control/CMakeFiles/list_install_components.dir
+/home/x/CODE/ROS_RobotArm_Control/build/arm_control/CMakeFiles/install.dir
+/home/x/CODE/ROS_RobotArm_Control/build/arm_control/CMakeFiles/install/local.dir
+/home/x/CODE/ROS_RobotArm_Control/build/arm_control/CMakeFiles/install/strip.dir

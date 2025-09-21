@@ -1,0 +1,31 @@
+[0.023s] Invoking command in '/home/x/CODE/ROS_RobotArm_Control/build/arm_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/x/CODE/ROS_RobotArm_Control/build/arm_control -- -j8 -l8
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target armcontrol[0m
+[0.253s] [ 25%] [32mBuilding CXX object CMakeFiles/armcontrol.dir/src/main.cpp.o[0m
+[0.254s] [ 50%] [32mBuilding CXX object CMakeFiles/armcontrol.dir/src/control_node.cpp.o[0m
+[10.775s] [ 75%] [32m[1mLinking CXX executable armcontrol[0m
+[11.472s] [100%] Built target armcontrol
+[11.485s] Invoked command in '/home/x/CODE/ROS_RobotArm_Control/build/arm_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/x/CODE/ROS_RobotArm_Control/build/arm_control -- -j8 -l8
+[11.491s] Invoking command in '/home/x/CODE/ROS_RobotArm_Control/build/arm_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/x/CODE/ROS_RobotArm_Control/build/arm_control
+[11.500s] -- Install configuration: ""
+[11.503s] -- Installing: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/lib/arm_control/armcontrol
+[11.512s] -- Set runtime path of "/home/x/CODE/ROS_RobotArm_Control/install/arm_control/lib/arm_control/armcontrol" to ""
+[11.512s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/include
+[11.512s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/include/arm_control
+[11.512s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/include/arm_control/Inverse_Resolse.h
+[11.512s] -- Installing: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/include/arm_control/Control_Node.h
+[11.512s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/ament_index/resource_index/package_run_dependencies/arm_control
+[11.513s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/ament_index/resource_index/parent_prefix_path/arm_control
+[11.513s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/arm_control/environment/ament_prefix_path.sh
+[11.513s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/arm_control/environment/ament_prefix_path.dsv
+[11.513s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/arm_control/environment/path.sh
+[11.513s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/arm_control/environment/path.dsv
+[11.513s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/arm_control/local_setup.bash
+[11.513s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/arm_control/local_setup.sh
+[11.513s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/arm_control/local_setup.zsh
+[11.513s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/arm_control/local_setup.dsv
+[11.513s] -- Installing: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/arm_control/package.dsv
+[11.514s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/ament_index/resource_index/packages/arm_control
+[11.514s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/arm_control/cmake/arm_controlConfig.cmake
+[11.514s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/arm_control/cmake/arm_controlConfig-version.cmake
+[11.514s] -- Up-to-date: /home/x/CODE/ROS_RobotArm_Control/install/arm_control/share/arm_control/package.xml
+[11.517s] Invoked command in '/home/x/CODE/ROS_RobotArm_Control/build/arm_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/x/CODE/ROS_RobotArm_Control/build/arm_control
